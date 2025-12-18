@@ -1,0 +1,46 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    padding: 1rem;
+    text-align: center;
+    max-width: 320px;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0476518);
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    line-height: 1.4;
+}
